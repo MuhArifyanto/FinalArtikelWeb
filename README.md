@@ -15,6 +15,13 @@
 | 3   | Praktikum 7 - 11         | [🔗 Lab 7 - 11 (CodeIgniter 4)](https://github.com/MuhArifyanto/lab8web.git)        |
 | 4   | Praktikum 8 - VueJS Final| [🔗 VueJS + CI4 Final Project](https://github.com/MuhArifyanto/labvue8.git)         |
 
+## 🌐 Link Aplikasi Live
+
+| Aplikasi            | URL                                                            | Deskripsi                                 |
+| ------------------- | -------------------------------------------------------------- | ----------------------------------------- |
+| **Web Artikel CI4** | (https://artikelwarga.iceiy.com/)         | Aplikasi web artikel dengan CodeIgniter 4 |
+| **VueJS Frontend**  | (https://vuejsarif.iceiy.com/) | Frontend VueJS untuk konsumsi REST API    |
+
 # Sistem Manajemen Artikel - Vue.js + Backend API
 
 Ini adalah proyek sistem manajemen artikel berbasis **Vue.js** untuk frontend dan **REST API** sebagai backend (bisa menggunakan Laravel, Express, atau lainnya).

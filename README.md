@@ -13,7 +13,7 @@
 | 1   | Praktikum 1 - 3          | [🔗 Lab 1 - 3 (CodeIgniter 4)](https://github.com/MuhArifyanto/Lab7Web.git)         |
 | 2   | Praktikum 4 - 6          | [🔗 Lab 4 - 6 (CodeIgniter 4)](https://github.com/MuhArifyanto/Lab11web.git)        |
 | 3   | Praktikum 7 - 11         | [🔗 Lab 7 - 11 (CodeIgniter 4)](https://github.com/MuhArifyanto/lab8web.git)        |
-| 4   | Praktikum 8 - VueJS Final| [🔗 VueJS + CI4 Final Project](https://github.com/MuhArifyanto/labvue8.git)         |
+| 4   | Praktikum 8 - VueJS      | [🔗 VueJS + CI4 ](https://github.com/MuhArifyanto/labvue8.git)         |
 
 ## 🌐 Link Aplikasi Live
 

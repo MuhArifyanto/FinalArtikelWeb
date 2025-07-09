@@ -6,7 +6,7 @@
 |------|-------|-----|-------------|
 | Muhammad Arif Mulyanto   |  TI.23.A.5     | 312310359 | Pemrograman Website 2 |
 
-# Daftar Isi Praktikum Web Programming (CI4 + VueJS)
+# Daftar Isi Dan Penjelasan Praktikum Web Programming (CI4 + VueJS)
 
 | No  | Praktikum                | Link Repository                                                        |
 |-----|--------------------------|------------------------------------------------------------------------|

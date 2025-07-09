@@ -1,60 +1,74 @@
-# CodeIgniter 4 Framework
+## Tugas Praktikum Final Membuat Website Artikel
 
-## What is CodeIgniter?
+## Profil Mahasiswa
 
-CodeIgniter is a PHP full-stack web framework that is light, fast, flexible and secure.
-More information can be found at the [official site](https://codeigniter.com).
+| Nama | Kelas | NIM | Mata Kuliah |
+|------|-------|-----|-------------|
+| Muhammad Arif Mulyanto   |  TI.23.A.5     | 312310359 | Pemrograman Website 2 |
 
-This repository holds the distributable version of the framework.
-It has been built from the
-[development repository](https://github.com/codeigniter4/CodeIgniter4).
+# Daftar Isi Praktikum Web Programming (CI4 + VueJS)
 
-More information about the plans for version 4 can be found in [CodeIgniter 4](https://forum.codeigniter.com/forumdisplay.php?fid=28) on the forums.
+| No  | Praktikum                | Link Repository                                                        |
+|-----|--------------------------|------------------------------------------------------------------------|
+| 1   | Praktikum 1 - 3          | [🔗 Lab 1 - 3 (CodeIgniter 4)](https://github.com/MuhArifyanto/Lab7Web.git)         |
+| 2   | Praktikum 4 - 6          | [🔗 Lab 4 - 6 (CodeIgniter 4)](https://github.com/MuhArifyanto/Lab11web.git)        |
+| 3   | Praktikum 7 - 11         | [🔗 Lab 7 - 11 (CodeIgniter 4)](https://github.com/MuhArifyanto/lab8web.git)        |
+| 4   | Praktikum 8 - VueJS Final| [🔗 VueJS + CI4 Final Project](https://github.com/MuhArifyanto/labvue8.git)         |
 
-You can read the [user guide](https://codeigniter.com/user_guide/)
-corresponding to the latest version of the framework.
+# Sistem Manajemen Artikel - Vue.js + Backend API
 
-## Important Change with index.php
+Ini adalah proyek sistem manajemen artikel berbasis **Vue.js** untuk frontend dan **REST API** sebagai backend (bisa menggunakan Laravel, Express, atau lainnya).
 
-`index.php` is no longer in the root of the project! It has been moved inside the *public* folder,
-for better security and separation of components.
+## Fitur Utama
 
-This means that you should configure your web server to "point" to your project's *public* folder, and
-not to the project root. A better practice would be to configure a virtual host to point there. A poor practice would be to point your web server to the project root and expect to enter *public/...*, as the rest of your logic and the
-framework are exposed.
+- Autentikasi pengguna (Login & Logout)
+- Halaman utama (Home)
+- Halaman statis: About dan Contact
+- Dashboard admin
+- Tambah artikel baru
+- Lihat daftar artikel
 
-**Please** read the user guide for a better explanation of how CI4 works!
+---
 
-## Repository Management
+## Tampilan Aplikasi
 
-We use GitHub issues, in our main repository, to track **BUGS** and to track approved **DEVELOPMENT** work packages.
-We use our [forum](http://forum.codeigniter.com) to provide SUPPORT and to discuss
-FEATURE REQUESTS.
+### 🟦 1. Halaman Login
+Menampilkan form login agar pengguna bisa mengakses dashboard dan fitur lainnya.
 
-This repository is a "distribution" one, built by our release preparation script.
-Problems with it can be raised on our forum, or as issues in the main repository.
+![{87AF4855-B95C-4DC9-8ACC-DB7D3B4394B0}](https://github.com/user-attachments/assets/664fa186-c509-4aee-b10f-59ac134b8ad2)
 
-## Contributing
+---
 
-We welcome contributions from the community.
+### 🏠 2. Halaman Home
+Menampilkan daftar artikel/artikel terbaru.
 
-Please read the [*Contributing to CodeIgniter*](https://github.com/codeigniter4/CodeIgniter4/blob/develop/CONTRIBUTING.md) section in the development repository.
+![{61AE8BD2-62A6-4760-90C4-BCB354CA169E}](https://github.com/user-attachments/assets/0e71847d-f536-4789-9b8e-ebd7bf51d17c)
+![{CAEB1B16-1019-48BF-8FD1-1F353AC817B7}](https://github.com/user-attachments/assets/d27bbcb1-8f95-424d-8db4-c5938e1719e5)
 
-## Server Requirements
+---
 
-PHP version 8.1 or higher is required, with the following extensions installed:
+### ℹ️ 3. Halaman About
+Berisi informasi tentang aplikasi atau tim developer.
 
-- [intl](http://php.net/manual/en/intl.requirements.php)
-- [mbstring](http://php.net/manual/en/mbstring.installation.php)
+![{9F45D30C-F63A-4688-888B-8BB0667B24B4}](https://github.com/user-attachments/assets/29833b51-f48e-4fc8-9679-52909519908d)
 
-> [!WARNING]
-> - The end of life date for PHP 7.4 was November 28, 2022.
-> - The end of life date for PHP 8.0 was November 26, 2023.
-> - If you are still using PHP 7.4 or 8.0, you should upgrade immediately.
-> - The end of life date for PHP 8.1 will be December 31, 2025.
+---
 
-Additionally, make sure that the following extensions are enabled in your PHP:
+### 📞 4. Halaman Contact
+Berisi form atau informasi kontak pengembang.
 
-- json (enabled by default - don't turn it off)
-- [mysqlnd](http://php.net/manual/en/mysqlnd.install.php) if you plan to use MySQL
-- [libcurl](http://php.net/manual/en/curl.requirements.php) if you plan to use the HTTP\CURLRequest library
+![{C5B6B1EB-F141-4FF8-8CDF-5C02DA60ED0D}](https://github.com/user-attachments/assets/6c669823-3537-4ac0-a558-2eb3027b5e48)
+
+---
+
+### 📊 5. Halaman Dashboard
+Menampilkan ringkasan data dan menu navigasi admin.
+
+![{AEECAA8B-8BE9-444D-831C-92C67086A753}](https://github.com/user-attachments/assets/3cb889c0-e52c-4932-afa3-dd1a2664048d)
+
+---
+
+### 📝 6. Tambah Artikel
+Form untuk menambahkan artikel baru dengan input judul, isi, gambar, dsb.
+
+![{207648A6-DDC7-45B1-8E71-E210834655A8}](https://github.com/user-attachments/assets/2e6db05d-7505-4a7b-9c5f-b4fc6bd36205)
